@@ -1,5 +1,5 @@
 # remove enviornment variables file
-.env
+/.env
 # exclude all raw data files but keep the .gitkeep file to maintain file structure
 /src/make_data/raw_data/*
 !/src/make_data/raw_data/.gitkeep 
