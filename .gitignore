@@ -1,3 +1,7 @@
-/.env
+# remove enviornment variables file
+.env
+# exclude all raw data files but keep the .gitkeep file to maintain file structure
 /src/make_data/raw_data/*
+!/src/make_data/raw_data/.gitkeep 
+# remove presentation folder
 /presentations/
